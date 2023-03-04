@@ -11,7 +11,7 @@ mongoose
 	.connect(DB_HOST)
 	.then(() => {
 		app.listen(3000, () => {
-			console.log("Database connection successfuljhfkld");
+			console.log("Database connection successfull");
 		});
 	})
 	.catch(error => {
